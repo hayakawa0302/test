@@ -19,10 +19,10 @@ void draw(){
   ellipse(x, y, r*2, r*2);
 }
 void mousePressed(){
-  if(dist(x, y, mouseX, mouseY)<r){
+  if(dist(x, y, mouseX, mouseY) < r){
     mouseDragging = true;
-    dx = x-mouseX;
-    dy = y-mouseY;
+    dx = x - mouseX;
+    dy = y - mouseY;
   }
 }
 void mouseReleased(){

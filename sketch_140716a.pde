@@ -7,14 +7,14 @@ void setup(){
   size(300, 300);
   fill(0);
   stroke(0);
-  x = width/2;
-  y = height/2;
+  x = width / 2;
+  y = height / 2;
 }
 void draw(){
   background(255);
   if(mouseDragging == true){
-    x = mouseX+dx;
-    y = mouseY+dy;
+    x = mouseX + dx;
+    y = mouseY + dy;
   }
   ellipse(x, y, r*2, r*2);
 }

@@ -13,7 +13,7 @@ void draw() {
  
     background(0);
     
-    fill(30 * (ms / 150.0)  , 80 * (ms / 150.0), 80 * (ms / 150.0)); //0.000125byou ni 1kai kousin 
+    fill(30 * (ms / 150.0)  , 70 * (ms / 150.0), 70 * (ms / 150.0)); //0.000125byou ni 1kai kousin 
     rect(0, 0, width / 6, height / 5); //sikaku no zahyou to size
     
     translate(width / 6, 0); //translate = zahyou kiten zurasu
@@ -25,14 +25,14 @@ void draw() {
     rect(0, 0, width / 6, height / 2);
     
     translate(width / 6, 0);
-    fill(30 * (ms / 480.0)  , 80 * (ms / 480.0), 80 * (ms / 480.0));
+    fill(40 * (ms / 480.0)  , 90 * (ms / 480.0), 90 * (ms / 480.0));
     rect(0, 0, width / 6, height / 1.5);
     
     translate(width / 6, 0);
-    fill(30 * (ms / 600.0)  , 80 * (ms / 600.0), 80 * (ms / 600.0));
+    fill(40 * (ms / 600.0)  , 90 * (ms / 600.0), 90 * (ms / 600.0));
     rect(0, 0, width / 6, height / 1.25);
     
     translate(width / 6, 0);
-    fill(30 * (ms / 780.0)  , 80 * (ms / 780.0), 80 * (ms / 780.0));
+    fill(40 * (ms / 780.0)  , 100 * (ms / 780.0), 100 * (ms / 780.0));
     rect(0, 0, width / 6, height);
 }

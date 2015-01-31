@@ -1,7 +1,7 @@
 PVector p0, q0, p1, q1;
 float t0, t1;
 float v0, v1;
-float move;
+int move;
 void setup(){
   size(400, 400);
   t0 = 0;
